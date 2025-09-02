@@ -84,8 +84,8 @@ module.exports = class UserController extends BaseController {
         throw new Forbidden("Data is Already Registered");
       }
 
-      const InsertUsersData = new userSchema(usersData);
-      const users_data = await InsertUsersData.save();
+      // const InsertUsersData = new userSchema(usersData);
+      // const users_data = await InsertUsersData.save();
 
       let existingCustomer = await customerSchema.findOne({ email_address: req.body.email_address });
 
