@@ -60,7 +60,8 @@ const io = new Server(server, {
       "http://localhost:4000",
       "http://localhost:5173",
       "http://3.108.65.195:4000",
-      "https://start-your-tour-harsh.onrender.com"
+      // "https://start-your-tour-harsh.onrender.com"
+      "https://travel-ai-harsh.onrender.com"
     ],
     methods: ["GET", "POST"]
   }
