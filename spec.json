@@ -12623,7 +12623,11 @@
     }
   },
   "info": {
+<<<<<<< HEAD
     "title": "start-your-tour",
+=======
+    "title": "Travel Ai",
+>>>>>>> master
     "version": "1.0.0",
     "description": "Specification JSONs: [v2](/api-spec/v2), [v3](/api-spec/v3)."
   }
